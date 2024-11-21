@@ -44,6 +44,10 @@ export class NavComponent {
           title: 'Contact',
           url: '/demo/demo06'
         },
+        {
+          title: 'HttpClient',
+          url: '/demo/demo07'
+        },
       ],
     },
     {
@@ -58,6 +62,10 @@ export class NavComponent {
           title: 'Shopping list',
           url: 'exo/exo02'
         },
+        {
+          title: 'Contact form',
+          url: 'exo/exo03'
+        }
       ],
     },
   ];

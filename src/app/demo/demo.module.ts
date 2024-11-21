@@ -10,6 +10,7 @@ import { DemoInputOutputComponent } from './demo-input-outpout/demo-input-outpou
 import { DeleteDialogComponent } from './demo-input-outpout/delete-dialog/delete-dialog.component';
 import { DemoFormulaireComponent } from './demo-formulaire/demo-formulaire.component';
 import { DemoContactComponent } from './demo-contact/demo-contact.component';
+import { DemoHttpComponent } from './demo-http/demo-http.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { DemoContactComponent } from './demo-contact/demo-contact.component';
     DemoInputOutputComponent,
     DemoFormulaireComponent,
     DemoContactComponent,
+    DemoHttpComponent,
   ],
   imports: [
     CommonModule,

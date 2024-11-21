@@ -26,4 +26,7 @@
   @if (errors['beforeWeek']) {
     <span class="error">La date doit être dans la semaine</span>
   }
+  @if (errors['afterOneWeek']) {
+    <span class="error">La date doit être dans minimum une semaine</span>
+  }
 }
